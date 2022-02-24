@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./2.css">
+    <link rel="stylesheet" href="./hoantat.css">
+    <title>Checkout | L&S</title>
+</head>
+
+<body>
+    <div id="header">
+        <a href="trangchu.html" class="logo">
+            <img src="./hinhanhas2/letter_b_PNG16.png">
+            BAO STORE
+        </a>
+    </div>
+    <div class="sales-mode">
+        <div class="shipping">
+            <img class="icon" src="./hinhanhas2/icon-freeshipping.png">
+            FREE SHIPPING WITH ALL ORDER !
+        </div>
+        <div class="return">
+            <img class="icon" src="./hinhanhas2/OIP.jfif">
+            EASY RETURNS IN 30 DAYS
+        </div>
+        <div class="warranty">
+            <img class="icon" src="./hinhanhas2/phone_PNG48978.png">
+             WARRANTY EVERYTIME, EVERYWHERE
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="title">THANH TOÁN</h2>
+        <div class="wrapper">
+            <div class="info">
+                <div class="the-basics">
+                    <h2 class="name">
+                        1. The Basics
+                        <img src="./hinhanhas2/icon-arrow.svg">
+                    </h2>
+                    <div class="fields-wrapper input-info">
+                        <h3>Your Address</h3>
+                        <form class="input-address">
+                            <div class="input-field f-email">
+                                <label for="i-email">E-mail *</label>
+                                <input type="email" name="i-email" id="i-email" required>
+                            </div>
+                            <div class="input-field f-first-name">
+                                <label for="i-first-name">Họ *</label>
+                                <input type="text" name="" id="i-first-name" required>
+                            </div>
+                            <div class="input-field f-last-name">
+                                <label for="i-last-name">Tên *</label>
+                                <input type="text" name="" id="i-last-name" required>
+                            </div>
+                            <div class="input-field f-phone">
+                                <label for="i-phone">Số điện thoại *</label>
+                                <input type="text" name="" id="i-phone" required>
+                            </div>
+                            <div class="input-field f-address">
+                                <label for="i-address">Địa chỉ *</label>
+                                <input type="text" name="" id="i-address" required>
+                            </div>
+                            <div class="input-field f-city">
+                                <label for="i-city">Thành Phố *</label>
+                                <input type="text" name="" id="i-city" required>
+                            </div>
+                            
+                            <div class="input-field country">
+                                <h5>COUNTRY : </h5>
+                                <span>Vietnam</span>
+                            </div>
+                            <div class="btn-wrapper">
+                                <button type="submit" class="btn-confirm btn-style">Confirm</button>
+                                <button type="reset" class="btn-reset btn-style">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="shipping">
+                    <h2 class="name">
+                        2. Shipping
+                        <img src="./hinhanhas2/icon-arrow.svg">
+                    </h2>
+                    <ul class="fields-wrapper">
+                        <li class="shipping-method">
+                            <div class="shipping-price">
+                                <label for="ups-express">
+                                    <input checked="checked" type="radio" name="check-express" id="ups-express">
+                                    <span class="checkbox"></span>
+                                    <img class="logo-express" src="./img/icon/Shipping_UPS.svg">
+                                    <p class="name-express">SHIP COD Toàn Quốc</p>
+                                    <p class="price-express">45.000VND</p>
+                                    <span class="shipping-data">4->6 ngày </span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="shipping-method">
+                            <div class="shipping-price">
+                                <label for="ems-express">
+                                    <input type="radio" name="check-express" id="ems-express">
+                                    <span class="checkbox"></span>
+                                    <img class="logo-express" src="./img/icon/EMS-Logo.png">
+                                    <p class="name-express">SHIP Nội Thành</p>
+                                    <p class="price-express">FREE</p>
+                                    <span class="shipping-data">1 Ngày</span>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="payment">
+                    <h2 class="name">
+                        3. Payment
+                        <img src="./hinhanhas2/icon-arrow.svg">
+                    </h2>
+                    <ul class="fields-wrapper">
+                        <li class="payment-method">
+                            <div class="wrapper-credit-card">
+                                <label for="credit-card" class="credit-card check-radio">
+                                    <input checked="checked" type="radio" name="check-payment" id="credit-card">
+                                    <span class="checkbox"></span>
+                                </label>
+                                <label for="credit-card" class="credit-card icon-credit-card">
+                                    <p class="name-method">Chuyển Khoản</p>
+                                    <div class="icon-payment">
+                                        <img class="logo-payment" src="./img/payment/visa.png">
+                                    </div>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="payment-method">
+                            <div class="wrapper-credit-card">
+                                <label class="credit-card check-radio" for="paypal">
+                                    <input type="radio" name="check-payment" id="paypal">
+                                    <span class="checkbox"></span>
+                                </label>
+                                <label class="credit-card icon-credit-card" for="paypal">
+                                    <p class="name-method">THanh toán khi nhận hàng</p>
+                                    <div class="icon-payment">
+                                        <img class="logo-payment" src="./img/payment/paypal.png">
+                                    </div>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="" class="btn-payment btn-style">
+                    <p>Complete Payment</p>
+                    <img src="./img/icon/white-arrow.png">
+                </a>
+                <div class="privacy-policy">
+                    <p>By placing your order you agree to our <a href="https://www.danielwellington.com/us/terms/">Terms
+                            & Conditions</a> and you understand that
+                        we will process your personal data on the basis of our <a
+                            href="https://www.danielwellington.com/us/privacy-policy/">Privacy Policy</a>.</p>
+                </div>
+            </div>
+            <div class="pay">
+                <div class="info-pay">
+                    <ul id="list-items-cart">
+                        <li class="item-cart">
+                            <div class="img-item">
+                                <img src="./hinhanhas2/S1.jpg">
+                            </div>
+                            <div class="desc-item">
+                                <b class="name-item fw600">Candles Double Knee Shirt</b>
+                                <p class="color-item">Color: Ivory</p>
+                                <p class="size-item">Size: L</p>
+                                <p class="quantity-item">Qty: 1</p>
+                            </div>
+                            <p class="price-item">465.000VND</p>
+                        </li>
+                    </ul>
+                    <div class="common-info shipping">
+                        <p style="text-transform: initial;">Delivery Fee</p>
+                        <span>FREE</span>
+                    </div>
+                    <div class="common-info grand-total">
+                        <p class="fw600">Grand total</p>
+                        <span class="fw600">465.000VND</span>
+                    </div>
+                </div>
+                <div class="coupon">
+                    <label for="code">Coupon Code</label>
+                    <input type="text" id="code" placeholder="Enter your code">
+                    <button class="btn-style">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "105850018433290");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+
+</html>
